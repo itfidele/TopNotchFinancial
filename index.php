@@ -545,16 +545,16 @@
                             <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp">
                                 <div class="blog-post">
                                     <div class="blog-post-images overflow-hidden">
-                                        <a href="blog-post-layout-01.html">
+                                        <a href="#">
                                             <img src="images/blog-img5.jpg" alt="">
                                         </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">Graphic Design</a></div>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">Graphic Design</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
-                                        <a href="blog-post-layout-01.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">I like the body. I like to design everything to do with the body.</a>
+                                        <a href="#" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">I like the body. I like to design everything to do with the body.</a>
                                         <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-masonry.html" class="text-medium-gray">Jay Benjamin</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Jay Benjamin</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
                                         </div>
                                         <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
@@ -566,16 +566,16 @@
                             <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.2s">
                                 <div class="blog-post">
                                     <div class="blog-post-images overflow-hidden">
-                                        <a href="blog-post-layout-02.html">
+                                        <a href="#">
                                             <img src="images/blog-img4.jpg" alt="">
                                         </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">Graphic Design</a></div>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">Graphic Design</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
-                                        <a href="blog-post-layout-02.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Recognizing the need is the primary condition for design.</a>
+                                        <a href="#" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Recognizing the need is the primary condition for design.</a>
                                         <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-masonry.html" class="text-medium-gray">Herman Miller</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Herman Miller</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
                                         </div>
                                         <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
@@ -587,16 +587,16 @@
                             <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.4s">
                                 <div class="blog-post">
                                     <div class="blog-post-images overflow-hidden">
-                                        <a href="blog-post-layout-03.html">
+                                        <a href="#">
                                             <img src="images/blog-img6.jpg" alt="">
                                         </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="blog-grid.html">Web Design</a></div>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">Web Design</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
-                                        <a href="blog-post-layout-03.html" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Styles come and go. Design is a language, not a style.</a>
+                                        <a href="#" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Styles come and go. Design is a language, not a style.</a>
                                         <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="blog-masonry.html" class="text-medium-gray">Jeremy Dupont</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Jeremy Dupont</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
                                         </div>
                                         <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
