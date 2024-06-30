@@ -243,7 +243,7 @@
         <section class="p-0 wow animate__fadeIn bg-extra-dark-gray">
             <div class="container-fluid">
                 <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="col d-flex align-items-center justify-content-center md-h-500px sm-h-350px cover-background wow animate__fadeInLeft" style="background-image: url('images/homepage-9-parallax-img4.jpg');">
+                    <div class="col d-flex align-items-center justify-content-center md-h-500px sm-h-350px cover-background wow animate__fadeInLeft" style="background-image: url('images/quote-section.jpg');">
                         <div class="opacity-extra-medium bg-extra-dark-gray"></div>
                         <div class="position-relative  w-50 text-center text-white-2 padding-ten-all z-index-5 xl-w-70 sm-w-85 sm-padding-twelve-tb sm-padding-five-lr">
                             <span class="special-char-medium text-white-2 absolute-middle-center top-0 fa-solid fa-quote-left"></span>
