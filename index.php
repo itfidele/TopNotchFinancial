@@ -23,6 +23,8 @@
         <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+        
     </head>
     <body>
         <!-- start header -->
@@ -64,7 +66,7 @@
             <div class="container position-relative full-screen">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
-                         <h1 class="text-white font-weight-700" style="font-size: 50px">Family For Life Insurance</h1>
+                         <h1 class="text-white font-weight-700" style="font-size: 50px">The Top Notch Financial</h1>
                         <h4 class="text-white-2" style="font-size: 30px">Life Insurance that protects what you value most</h4>
                         <div class="down-section text-center"><a href="#about" class="inner-link"><i class="ti-arrow-down icon-extra-small text-white-2 bg-deep-pink padding-15px-all sm-padding-10px-all rounded-circle"></i></a></div>
                     </div>
@@ -78,8 +80,8 @@
                 <div class="row justify-content-center">
                     <!-- start feature box item -->
                     <div class="col-lg-8 col-md-10 text-center margin-eight-bottom sm-margin-40px-bottom">
-                        <span class="alt-font text-deep-pink text-medium margin-5px-bottom d-block">Family for Life Insurance: Protecting Your Future</span>
-                        <h5 class="font-weight-300 text-extra-dark-gray mb-0">At Family for Life Insurance, we specialize in safeguarding your loved ones with comprehensive insurance solutions.</h5>
+                        <span class="alt-font text-deep-pink text-medium margin-5px-bottom d-block">The Top Notch Financial: Protecting Your Future</span>
+                        <h5 class="font-weight-300 text-extra-dark-gray mb-0">At The Top Notch Financial, we specialize in safeguarding your loved ones with comprehensive insurance solutions.</h5>
                     </div>
                     <!-- end feature box item -->
                 </div>
@@ -201,7 +203,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-10 padding-nine-right text-center text-lg-start md-padding-15px-right md-padding-30px-bottom wow animate__fadeIn last-paragraph-no-margin">
                         <h6 class="text-extra-dark-gray font-weight-600 w-90 alt-font md-w-100">Dedicated to Your Financial Security</h6>
-                        <p class="w-90 margin-30px-bottom md-w-100">At Family for Life Insurance, we ensure your family's financial stability with tailored solutions. Our experienced team provides personalized advice, efficient claims processing, and a wide range of coverage options. We focus on customer satisfaction, earning high trust and renewal rates from our clients.</p>
+                        <p class="w-90 margin-30px-bottom md-w-100">At The Top Notch Financial, we ensure your family's financial stability with tailored solutions. Our experienced team provides personalized advice, efficient claims processing, and a wide range of coverage options. We focus on customer satisfaction, earning high trust and renewal rates from our clients.</p>
                     </div>
                     <div class="col-lg-6 col-md-10 text-center margin-30px-top wow animate__fadeIn">
                         <!-- start progress bar item -->
@@ -252,7 +254,7 @@
                         <div class="padding-fifteen-all xl-padding-thirteen-all lg-padding-ten-all md-padding-90px-all sm-no-padding-lr sm-padding-40px-tb w-100">
 
                             <h4 class="alt-font text-light-gray">Your Trusted Insurance Partner.</h4>
-                            <p class="w-85 xl-w-100 text-light-gray">At Family for Life Insurance, we believe in building long-lasting relationships with our clients. Our dedicated team of professionals works closely with you to understand your unique needs and provide the best insurance solutions. We take pride in our personalized approach, ensuring that every policy is tailored to offer maximum protection and peace of mind.</p>
+                            <p class="w-85 xl-w-100 text-light-gray">At The Top Notch Financial, we believe in building long-lasting relationships with our clients. Our dedicated team of professionals works closely with you to understand your unique needs and provide the best insurance solutions. We take pride in our personalized approach, ensuring that every policy is tailored to offer maximum protection and peace of mind.</p>
                             <p class="w-85 xl-w-100 text-light-gray">Our commitment to excellence extends beyond just providing insurance. We offer ongoing support and guidance to help you navigate life's uncertainties. With a focus on transparency, integrity, and customer satisfaction, we strive to be your trusted partner in safeguarding your family's future.</p>
                             <a href="#contact" class="btn btn-small margin-35px-top btn-white">Contact us Now </a>
                         </div>
@@ -422,8 +424,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8 col-sm-10 margin-eight-bottom text-center last-paragraph-no-margin md-margin-40px-bottom sm-margin-30px-bottom">
-                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Creative People</h5>
-                        <p>insurance solutions. With diverse expertise and a passion for helping others, our team ensures you receive the best advice and support every step of the way.</p>
+                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Our trusted team</h5>
+                        <p>With diverse expertise and a passion for helping others, our team ensures you receive the best advice and support every step of the way.</p>
                     </div>  
                 </div>
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center">
@@ -434,7 +436,7 @@
                                 <img src="images/team.png" alt="">
                                 <div class="team-overlay bg-deep-pink"></div>
                                 <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Names</div>
+                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Name</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Title/Position</div>
                                 </div>
                             </div>
@@ -444,7 +446,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="http://www.plus.google.com.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
+                                    
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -458,7 +460,7 @@
                                 <img src="images/team.png" alt="">
                                 <div class="team-overlay bg-deep-pink"></div>
                                 <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Names</div>
+                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Name</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Title/Position</div>
                                 </div>
                             </div>
@@ -468,7 +470,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="http://www.plus.google.com.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
+                                    
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -482,7 +484,7 @@
                                 <img src="images/team.png" alt="">
                                 <div class="team-overlay bg-deep-pink"></div>
                                 <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Names</div>
+                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Name</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Title/Position</div>
                                 </div>
                             </div>
@@ -492,7 +494,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="http://www.plus.google.com.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
+                                    
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -506,7 +508,7 @@
                                 <img src="images/team.png" alt="">
                                 <div class="team-overlay bg-deep-pink"></div>
                                 <div class="team-member-position text-center margin-25px-top">
-                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Names</div>
+                                    <div class="text-extra-dark-gray font-weight-600 text-uppercase text-small alt-font">Name</div>
                                     <div class="text-extra-small text-uppercase text-medium-gray">Title/Position</div>
                                 </div>
                             </div>
@@ -516,7 +518,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="http://www.plus.google.com.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
+                                    
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -548,7 +550,7 @@
                                         <a href="#">
                                             <img src="images/blog-img5.jpg" alt="">
                                         </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">Graphic Design</a></div>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">#</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
@@ -569,7 +571,7 @@
                                         <a href="#">
                                             <img src="images/blog-img4.jpg" alt="">
                                         </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">Graphic Design</a></div>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">#</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
@@ -590,7 +592,7 @@
                                         <a href="#">
                                             <img src="images/blog-img6.jpg" alt="">
                                         </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">Web Design</a></div>
+                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">#</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
@@ -666,6 +668,7 @@
                         <a href="#" class="margin-15px-top text-decoration-line-through-deep-pink d-inline-block text-uppercase text-deep-pink text-small sm-no-margin-top">send e-mail</a>
                     </div>
                     <!-- end features box item -->
+
                  
                 </div>
             </div>
