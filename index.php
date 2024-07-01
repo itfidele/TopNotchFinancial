@@ -271,7 +271,7 @@
                     <div class="col-lg-6 col-md-8 col-sm-10 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
                         <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Our core services</h5>
                         <p class="mb-0">Explore our comprehensive insurance services designed to secure your family's future and provide peace of mind amidst life's uncertainties. From personalized life insurance plans to expert financial guidance, we prioritize your security with clarity and compassion.</p>
-                    </div>  
+                    </div>
                 </div>
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
                     <!-- start services item -->
@@ -426,7 +426,7 @@
                     <div class="col-lg-6 col-md-8 col-sm-10 margin-eight-bottom text-center last-paragraph-no-margin md-margin-40px-bottom sm-margin-30px-bottom">
                         <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Our trusted team</h5>
                         <p>With diverse expertise and a passion for helping others, our team ensures you receive the best advice and support every step of the way.</p>
-                    </div>  
+                    </div>
                 </div>
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center">
                     <!-- start team item -->
@@ -446,7 +446,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    
+
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -470,7 +470,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    
+
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -494,7 +494,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    
+
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -518,7 +518,7 @@
                                     <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb sm-margin-20px-tb"></div>
                                     <a href="http://www.facebbok.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="http://www.twitter.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    
+
                                     <a href="http://www.instagram.com/" class="text-extra-dark-gray" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </figcaption>
@@ -543,69 +543,41 @@
                     <div class="col-12 blog-content">
                         <ul class="blog-masonry blog-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col blog-post-style5 gutter-large">
                             <li class="grid-sizer"></li>
-                            <!-- start post item --> 
+                            <!-- start post item -->
+                            <?php
+                            require("connection.php");
+                            $query = mysqli_query($connection,"SELECT * FROM blog ORDER BY id DESC LIMIT 3")or die(mysqli_error($connection));
+                            while($data = mysqli_fetch_assoc($query))
+                            {
+                            ?>
                             <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp">
                                 <div class="blog-post">
                                     <div class="blog-post-images overflow-hidden">
-                                        <a href="#">
-                                            <img src="images/blog-img5.jpg" alt="">
+                                        <a href="read?p=<?php print $data["slug"]; ?>">
+                                            <img src="<?php print $data["thumb_url"]; ?>" alt="">
                                         </a>
                                         <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">#</a></div>
                                     </div>
                                     <div class="post-details padding-35px-all bg-white md-padding-20px-all">
                                         <div class="blog-hover-color"></div>
-                                        <a href="#" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">I like the body. I like to design everything to do with the body.</a>
+                                        <a href="read?p=<?php print $data["slug"]; ?>" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom"><?php print $data["title"]; ?></a>
                                         <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Jay Benjamin</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
+                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Admin</a>&nbsp;&nbsp;|&nbsp;&nbsp;<?php print $data["published_on"]; ?></span>
                                         </div>
                                         <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
+                                        <p>
+
+                                            <?php
+                                            $clean_description = strip_tags($data["description"]);
+                                            $short_description = substr($clean_description, 0, 120);
+                                            echo $short_description;
+                                            ?>...
+                                        </p>
                                     </div>
                                 </div>
                             </li>
-                            <!-- end post item --> 
-                            <!-- start post item --> 
-                            <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.2s">
-                                <div class="blog-post">
-                                    <div class="blog-post-images overflow-hidden">
-                                        <a href="#">
-                                            <img src="images/blog-img4.jpg" alt="">
-                                        </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">#</a></div>
-                                    </div>
-                                    <div class="post-details padding-35px-all bg-white md-padding-20px-all">
-                                        <div class="blog-hover-color"></div>
-                                        <a href="#" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Recognizing the need is the primary condition for design.</a>
-                                        <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Herman Miller</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
-                                        </div>
-                                        <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end post item --> 
-                            <!-- start post item --> 
-                            <li class="grid-item last-paragraph-no-margin wow animate__fadeInUp" data-wow-delay="0.4s">
-                                <div class="blog-post">
-                                    <div class="blog-post-images overflow-hidden">
-                                        <a href="#">
-                                            <img src="images/blog-img6.jpg" alt="">
-                                        </a>
-                                        <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a href="#">#</a></div>
-                                    </div>
-                                    <div class="post-details padding-35px-all bg-white md-padding-20px-all">
-                                        <div class="blog-hover-color"></div>
-                                        <a href="#" class="alt-font post-title text-medium text-extra-dark-gray w-90 d-block lg-w-100 margin-5px-bottom">Styles come and go. Design is a language, not a style.</a>
-                                        <div class="author">
-                                            <span class="text-medium-gray text-uppercase text-extra-small d-inline-block">by <a href="#" class="text-medium-gray">Jeremy Dupont</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 April 2017</span>
-                                        </div>
-                                        <div class="separator-line-horrizontal-full bg-medium-gray margin-seven-tb lg-margin-four-tb"></div>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy...</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end post item --> 
+                            <?php }?>
+                            <!-- end post item -->
                         </ul>
                     </div>
                 </div>
@@ -685,7 +657,7 @@
                     <!-- end logo -->
                     <!-- start copyright -->
                     <div class="col-md-6 text-center text-small alt-font sm-margin-10px-bottom">
-                        &copy; <?php print date("Y"); ?>The Top Notch Financial, All rights reserved.
+                        &copy; <?php print date("Y"); ?> The Top Notch Financial, All rights reserved.
                     </div>
                     <!-- end copyright -->
                     <!-- start social media -->
@@ -716,5 +688,4 @@
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 
-<!-- Mirrored from www.themezaa.com/html/pofo/home-classic-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Mar 2024 07:33:16 GMT -->
 </html>
